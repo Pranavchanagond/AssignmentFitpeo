@@ -4,7 +4,7 @@ export default function Card(props) {
   return (
     <div className="inline-flex items-center gap-3 bg-white p-5 rounded-xl ">
       <div
-        className={`${props.bgColor} w-[80px] h-[80px]  bg-green-200 rounded-full flex justify-center items-center`}
+        className={`${props.bgColor} w-[80px] h-[80px]  rounded-full flex justify-center items-center`}
       >
         <span className={`${props.picColor} text-5xl`}>{props.icon}</span>
       </div>
