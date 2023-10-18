@@ -51,7 +51,7 @@ export default function MainCard() {
     },
   ];
   return (
-    <div className="flex justify-between flex-wrap mb-5">
+    <div className="flex justify-between flex-wrap mb-5 ">
       {cardList.map((items) => {
         return (
           <Card
